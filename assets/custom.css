@@ -1,0 +1,101 @@
+/* 
+ * Custom CSS
+ *
+ * Create a custom.css file to add custom styles to your menu.
+ */
+
+.ubermenu-target.ubermenu-item-layout-default.ubermenu-item-layout-text_only{
+	font-weight:500;
+	font-size:30px;
+	color:#004c6d;
+}
+
+#ubermenu-nav-main-2-primary {
+    float: right;
+}
+
+.ubermenu .ubermenu-colgroup .ubermenu-column, .ubermenu .ubermenu-custom-content-padded, .ubermenu .ubermenu-nonlink, .ubermenu .ubermenu-retractor, .ubermenu .ubermenu-submenu-padded, .ubermenu .ubermenu-submenu-type-stack > .ubermenu-item-normal > .ubermenu-target, .ubermenu .ubermenu-target, .ubermenu .ubermenu-widget, .ubermenu-responsive-toggle{
+	padding:10px 20px;
+	margin:0 5px;
+}
+
+.ubermenu-sub-indicators .ubermenu-has-submenu-drop > .ubermenu-target::after{
+	margin-top:-10px;
+	right:4px;
+}
+
+.ubermenu .ubermenu-item.ubermenu-active > .ubermenu-submenu-drop, .ubermenu-nojs .ubermenu-item:hover > .ubermenu-submenu-drop {
+    border-top:20px solid #004c6d;
+	border-bottom:10px solid #004c6d;
+	background-color:#FFF;
+}
+
+.ubermenu-responsive-toggle.ubermenu-responsive-toggle-main.ubermenu-skin-none.ubermenu-loc-primary{
+	font-size:32px !important;
+	color:#FFF !important;
+	background-color:#004C6D !important;
+	float:right;
+	margin-right:0;
+}
+	
+#ubermenu-nav-main-2-primary{
+	float:none;
+}
+
+@media screen and (max-width: 990px){
+	
+	.ubermenu-sub-indicators .ubermenu-has-submenu-drop > .ubermenu-target::after{
+		margin-top:-7px;
+	}
+	
+}
+
+@media screen and (max-width: 960px){
+	
+	#ubermenu-main-2-primary.ubermenu-responsive{
+		background-color:#004C6D; 
+	}
+	
+	#ubermenu-main-2-primary.ubermenu-responsive .ubermenu-target.ubermenu-item-layout-default.ubermenu-item-layout-text_only{
+		color:#FFF !important;
+	}
+
+	.ubermenu.ubermenu-main .ubermenu-item-level-0:hover > .ubermenu-target, .ubermenu-main .ubermenu-item-level-0.ubermenu-active > .ubermenu-target {
+   		background: rgba(0, 0, 0, 0) -moz-linear-gradient(center top , #0082c8, #0082c8) repeat scroll 0 0 !important;
+	}
+	
+	.ubermenu-target.ubermenu-item-layout-default.ubermenu-item-layout-text_only{
+		margin:0
+	}
+	
+	ul li ul li .ubermenu-target-title.ubermenu-target-text{
+		color: #004c6d !important;
+	}
+	
+	.ubermenu .ubermenu-item.ubermenu-active > .ubermenu-submenu-drop, .ubermenu-nojs .ubermenu-item:hover > .ubermenu-submenu-drop {
+		border-top:1px solid #FFF;
+		border-bottom:10px solid #0082c8;
+		background-color:#FFF;
+	}
+	
+	.megamenu_title_over_image .ubermenu-target-title.ubermenu-target-text, .killarney_medium_link span, ul li ul li.killarney_medium_link  .ubermenu-target-title.ubermenu-target-text, .megamenu_button .ubermenu-target-title.ubermenu-target-text, .megamenu_button a .ubermenu-target-title.ubermenu-target-text{
+		color:#FFF !important;
+	}
+	
+}
+
+@media screen and (max-width: 550px){
+	
+	.ubermenu-sub-indicators .ubermenu-has-submenu-drop > .ubermenu-target::after{
+		right:20px !important;
+	}
+	
+}
+
+@media screen and (max-width: 420px){
+	
+	.ubermenu-responsive-toggle.ubermenu-responsive-toggle-main.ubermenu-skin-none.ubermenu-loc-primary{
+		font-size:20px !important;
+	}
+	
+}

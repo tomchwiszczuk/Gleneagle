@@ -1,0 +1,1046 @@
+@charset "UTF-8";
+ .nopad {
+     padding: 0px;
+     margin: 0px;
+}
+ .mt-50 {
+     margin-top: 50px;
+}
+/* BLOG INDEX */
+ #page_news {
+     padding: 0px 37px;
+     margin-bottom: 50px;
+}
+ #page_news h1 {
+     font-weight: 900;
+     font-size: 30px;
+     margin-bottom: 15px;
+}
+
+ #page_news .align {
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -ms-flex-line-pack: center;
+     align-content: center;
+     -webkit-box-align: center;
+     -ms-flex-align: center;
+     align-items: center;
+     -webkit-box-orient: horizontal;
+     -webkit-box-direction: normal;
+     -ms-flex-flow: row wrap;
+     flex-flow: row wrap;
+}
+ .blog_filters .category {
+     float: right;
+}
+ .blog-index .post {
+     margin-bottom: 5px;
+}
+ .blog-index .post .title {
+     font-size: 26px;
+     font-weight: 900;
+     line-height: 1;
+     text-align: left;
+     width: 100%;
+}
+ .blog-index .post .featured-thumb {
+     -o-object-fit: cover;
+     object-fit: cover;
+}
+ .blog-index .post:nth-child(odd) {
+     background-color: #435060;
+}
+ .blog-index .post:nth-child(odd) .title a {
+     color: #f6a325;
+     text-decoration: none;
+}
+ .blog-index .post:nth-child(odd) .title a:hover {
+     color: #fff;
+}
+ .blog-index .post:nth-child(odd) .desc {
+     font-size: 16px;
+     color: #fff;
+     line-height: 1.143;
+     padding: 20px;
+     padding-left: 0px;
+}
+ .blog-index .post:nth-child(even) {
+     background-color: #d6d1cb;
+}
+ .blog-index .post:nth-child(even) .title a {
+     color: #435060;
+     text-decoration: none;
+}
+ .blog-index .post:nth-child(even) .title a:hover {
+     color: #f6a325;
+}
+ .blog-index .post:nth-child(even) .desc {
+     font-size: 16px;
+     color: #435060;
+     line-height: 1.143;
+     padding: 20px;
+     padding-left: 0px;
+}
+ .blog-index .post article {
+     padding: 10px;
+}
+ .blog-index .post .article {
+     height: 100%;
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-orient: horizontal;
+     -webkit-box-direction: normal;
+     -ms-flex-direction: row;
+     flex-direction: row;
+     -webkit-box-pack: center;
+     -ms-flex-pack: center;
+     justify-content: center;
+     -webkit-box-align: center;
+     -ms-flex-align: center;
+     align-items: center;
+     -ms-flex-line-pack: center;
+     align-content: center;
+}
+ .blog-index .post .article .hover {
+     max-height: 256px;
+}
+ .blog-index .post .article figure.hover img {
+}
+ .blog-index #load_more a {
+     display: block;
+     text-align: center;
+}
+ .blog-index #load_more p {
+     background: #f6a325;
+     padding: 20px;
+     text-align: center;
+     display: none;
+}
+
+@media (max-width: 1360px) {
+  #page_news {
+      padding: 15px;
+    }
+}
+
+ @media (max-width: 1024px) {
+     .blog_filters .category {
+         float: left;
+    }
+     .blog_filters .category .btn {
+         margin-bottom: 4px;
+    }
+}
+ @media (max-width: 767px) {
+     .blog-index .post .article {
+         -webkit-box-orient: vertical;
+         -webkit-box-direction: normal;
+         -ms-flex-direction: column;
+         flex-direction: column;
+    }
+     .blog-index .post .article article {
+         padding: 20px;
+    }
+     .blog-index .post .title {
+         max-width: 100%;
+    }
+}
+/* SINGLE BLOG */
+ .blog-single .post .featured {
+     width: 100%;
+     height: auto;
+     max-height: 450px;
+     -o-object-fit: cover;
+     object-fit: cover;
+     display: block;
+}
+ .blog-single .post .light {
+     background-color: #d6d1cb;
+     margin-top: -1px;
+}
+ .blog-single .post .dark {
+     background-color: #435060;
+     margin-top: -1px;
+}
+ .blog-single .post .content {
+     padding: 20px 20px 30px 20px;
+}
+ .blog-single .post .content h2 {
+     font-size: 24px;
+     font-weight: 900;
+     color: #435060;
+     line-height: 1;
+     text-align: left;
+     padding-top: 10px;
+     padding-bottom: 10px;
+}
+ .blog-single .post .content h3 {
+     font-size: 24px;
+     color: #435060;
+     line-height: 1;
+     text-align: left;
+     font-weight: 900;
+     padding-top: 20px;
+     padding-bottom: 20px;
+}
+ .blog-single .post .content p {
+     font-size: 16px;
+     color: #435060;
+     line-height: 1.5;
+}
+ .blog-single .post .content ul {
+     padding: 20px 25px;
+}
+ .blog-single .post .content ul li:before {
+     content: "■";
+     color: #0082c8;
+     font-weight: bold;
+     display: inline-block;
+     width: 1em;
+     height: 1.5em;
+     margin-left: -1em;
+     position: relative;
+     top: -1px;
+}
+ .blog-single .post #blog_sidebar {
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-orient: vertical;
+     -webkit-box-direction: normal;
+     -ms-flex-direction: column;
+     flex-direction: column;
+     padding-top: 20px;
+     padding-bottom: 30px;
+}
+ .blog-single .post #blog_sidebar .title {
+     color: #f6a325;
+     font-size: 24px;
+     line-height: 1;
+     text-align: left;
+     padding-top: 8px;
+     padding-bottom: 20px;
+     font-weight: 900;
+     margin-top: 30px;
+}
+
+.blog-single .post #blog_sidebar .title:first-child { margin-top: 0; }
+ .blog-single .post #blog_sidebar .btn {
+     margin: 3px 3px 3px 0px;
+     padding-left: 15px;
+     padding-right: 15px;
+}
+ @media (max-width: 768px) {
+     #page_news h1 {
+         font-size: 18px;
+         color: #3f4e5d;
+         line-height: 1;
+         text-align: left;
+    }
+     .blog-single .post .content h2 {
+         font-size: 16px;
+         color: #435060;
+         line-height: 1.5;
+    }
+     .blog-single .post .content {
+         padding: 0px;
+    }
+     .blog-single .post .content h3 {
+         font-size: 16px;
+         color: #435060;
+         line-height: 1.5;
+         padding-bottom: 10px;
+    }
+     .blog-single .post .content p {
+         font-size: 13px;
+         color: #435060;
+         line-height: 1.5;
+    }
+     .blog-single .post .content ul {
+         padding: 20px 15px;
+    }
+     .blog-single .post .content ul li {
+         font-size: 13px;
+    }
+     .blog-single .post .content ul li:before {
+         top: -3px;
+    }
+     .blog-single .post #blog_sidebar .title {
+         font-size: 16px;
+    }
+}
+/* RELATED POSTS SLIDER */
+ .inec-related-posts {
+     margin-top: 40px;
+}
+ .inec-related-posts .main-carousel .flickity-button {
+     background: transparent;
+}
+ .inec-related-posts .main-carousel .flickity-button-icon {
+     fill: #f6a325;
+}
+ .inec-related-posts .main-carousel .carousel-cell {
+     width: 50%;
+     margin-right: 5px;
+}
+ .inec-related-posts .main-carousel .carousel-cell .slide-img {
+     height: 100%;
+     width: 100%;
+     -o-object-fit: cover;
+     object-fit: cover;
+     max-height: 280px;
+     min-height: 280px;
+     position: relative;
+}
+ .inec-related-posts .main-carousel .carousel-cell .content {
+     position: absolute;
+     bottom: 20px;
+     height: 100%;
+     width: 100%;
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-orient: vertical;
+     -webkit-box-direction: normal;
+     -ms-flex-direction: column;
+     flex-direction: column;
+     -webkit-box-pack: end;
+     -ms-flex-pack: end;
+     justify-content: flex-end;
+     -webkit-box-align: center;
+     -ms-flex-align: center;
+     align-items: center;
+}
+ .inec-related-posts .main-carousel .carousel-cell .content .date {
+     background-color: #202d39;
+     color: #fff;
+     padding: 0px 5px 0px 5px;
+     font-size: 16px;
+}
+ .inec-related-posts .main-carousel .carousel-cell .content .title {
+     background-color: #3f4e5d;
+     color: #fff;
+     padding: 0px 5px 0px 5px;
+     font-size: 20px;
+     font-weight: 300;
+     text-align: center;
+}
+ @media (max-width: 768px) {
+     .inec-related-posts .main-carousel .carousel-cell {
+         width: 100%;
+    }
+     .inec-related-posts .main-carousel .flickity-button-icon {
+         background-color: #435060;
+         width: 50%;
+    }
+     .inec-related-posts .main-carousel .flickity-prev-next-button.previous {
+         left: -20px;
+    }
+     .inec-related-posts .main-carousel .flickity-prev-next-button.next {
+         right: -25px;
+    }
+}
+/* ***** SINGLE FESTIVAL ************** */
+ #page_single_fest h1 {
+     font-weight: 900;
+     font-size: 30px;
+     margin-bottom: 15px;
+}
+ #page_single_fest .pl-0 {
+     padding-left: 0px;
+     text-align: left;
+}
+ #page_single_fest .align {
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -ms-flex-line-pack: center;
+     align-content: center;
+     -webkit-box-align: center;
+     -ms-flex-align: center;
+     align-items: center;
+     -webkit-box-orient: horizontal;
+     -webkit-box-direction: normal;
+     -ms-flex-flow: row wrap;
+     flex-flow: row wrap;
+}
+ .single_fest_header {
+}
+ .single_fest_header .featured {
+     width: 100%;
+}
+ .single_fest_about {
+     background-color: #e9e8e4;
+}
+ .single_fest_about .space {
+     padding-top: 25px;
+     padding-bottom: 25px;
+}
+ .single_fest_about .heading {
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-orient: horizontal;
+     -webkit-box-direction: normal;
+     -ms-flex-direction: row;
+     flex-direction: row;
+     -webkit-box-align: center;
+     -ms-flex-align: center;
+     align-items: center;
+     margin-bottom: 25px;
+}
+ .single_fest_about .heading .icon {
+     margin-right: 10px;
+}
+ .single_fest_about .heading .title {
+     font-size: 32px;
+     font-weight: 900;
+     color: #3f4e5d;
+     line-height: 0.25;
+}
+
+ .single_fest_about .btn {
+     margin-top: 25px;
+}
+ .single_fest_about .media {
+     height: 300px;
+     width: 100%;
+     -o-object-fit: cover;
+     object-fit: cover;
+}
+ .single_fest_about .pl-0 {
+     padding-left: 0px;
+     margin-left: 0px;
+}
+ .single_fest_about .pr-0 {
+     padding-right: 0px;
+     margin-right: 0px;
+}
+ .single_fest_programme {
+     background-color: #435060;
+     padding-top: 25px;
+     padding-bottom: 35px;
+}
+/*
+ .single_fest_programme .gig {
+    float: none;
+    width: auto;
+}
+*/
+
+ .single_fest_programme .heading {
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-orient: horizontal;
+     -webkit-box-direction: normal;
+     -ms-flex-direction: row;
+     flex-direction: row;
+     -webkit-box-align: center;
+     -ms-flex-align: center;
+     align-items: center;
+     margin-bottom: 25px;
+}
+ .single_fest_programme .heading .icon {
+     margin-right: 10px;
+}
+ .single_fest_programme .heading .title {
+     font-size: 32px;
+     font-weight: 900;
+     color: #fff;
+     line-height: 0.25;
+}
+ .single_fest_programme .text {
+     font-size: 14px;
+     color: #fff;
+     line-height: 1.5;
+}
+ .single_fest_programme .hoverbox {
+     position: relative;
+     overflow: hidden;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center center;
+     height: 275px;
+}
+ .single_fest_programme .hoverbox:after {
+     content: "";
+     width: 100%;
+     height: 100%;
+     opacity: 1;
+     position: absolute;
+     top: 0;
+     -webkit-transition: all 0.3s ease-in-out 0s;
+     -o-transition: all 0.3s ease-in-out 0s;
+     transition: all 0.3s ease-in-out 0s;
+}
+ .single_fest_programme .hoverbox:hover:after {
+     background-position: 100% 100%;
+     background-color: #435060;
+     opacity: 0.5;
+     -webkit-transition: all 0.3s ease-in-out 0s;
+     -o-transition: all 0.3s ease-in-out 0s;
+     transition: all 0.3s ease-in-out 0s;
+}
+ .single_fest_programme .hoverbox img {
+     width: 100%;
+     height: 275px;
+}
+ .single_fest_programme .hoverbox .hoverbox-content {
+     width: 100%;
+     position: absolute;
+     bottom: 8%;
+     left: 0;
+     z-index: 1;
+     -webkit-transition: all 0.3s ease-in-out 0s;
+     -o-transition: all 0.3s ease-in-out 0s;
+     transition: all 0.3s ease-in-out 0s;
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-orient: vertical;
+     -webkit-box-direction: normal;
+     -ms-flex-direction: column;
+     flex-direction: column;
+     -webkit-box-align: center;
+     -ms-flex-align: center;
+     align-items: center;
+}
+ .single_fest_programme .hoverbox:hover .hoverbox-content {
+     bottom: 48%;
+}
+ .single_fest_programme .hoverbox .title {
+     background: #3f4e5d;
+     color: #FFF;
+     font-size: 18px;
+     font-weight: 300;
+     padding: 0px 4px;
+     display: inline-block;
+     -webkit-box-ordinal-group: 2;
+     -ms-flex-order: 1;
+     order: 1;
+}
+ .single_fest_programme .hoverbox .date {
+     background: #202d39;
+     color: #FFF;
+     font-size: 18px;
+     font-weight: 300;
+     padding: 0px 4px;
+     display: inline-block;
+     -webkit-box-ordinal-group: 1;
+     -ms-flex-order: 0;
+     order: 0;
+}
+ .single_fest_programme .hoverbox:hover .title {
+     background: transparent;
+     font-size: 24px;
+     color: white;
+     padding: 0px 4px;
+     display: inline-block;
+     -webkit-box-ordinal-group: 1;
+     -ms-flex-order: 0;
+     order: 0;
+     -webkit-transition: all 0.3s ease-in-out 0s;
+     -o-transition: all 0.3s ease-in-out 0s;
+     transition: all 0.3s ease-in-out 0s;
+}
+ .single_fest_programme .hoverbox:hover .date {
+     background: transparent;
+     font-size: 16px;
+     font-weight: bold;
+     color: white;
+     padding: 0px 4px;
+     display: inline-block;
+     -webkit-box-ordinal-group: 2;
+     -ms-flex-order: 1;
+     order: 1;
+     -webkit-transition: all 0.3s ease-in-out 0s;
+     -o-transition: all 0.3s ease-in-out 0s;
+     transition: all 0.3s ease-in-out 0s;
+}
+ .single_fest_programme .hoverbox .btn {
+     position: absolute;
+     top: 35%;
+     opacity: 0;
+     z-index: 1;
+     width: 120px;
+     text-align: center;
+     margin-left: auto;
+     margin-right: auto;
+     left: 0;
+     right: 0;
+     -webkit-transition: all 0.3s ease-in-out 0s;
+     -o-transition: all 0.3s ease-in-out 0s;
+     transition: all 0.3s ease-in-out 0s;
+}
+ .single_fest_programme .hoverbox:hover .btn {
+     opacity: 1;
+     top: 55%;
+     width: 120px;
+     left: 0;
+     right: 0;
+     margin-left: auto;
+     margin-right: auto;
+}
+ @media (max-width: 767px) {
+     #page_single_fest h1 {
+         font-size: 18px;
+         line-height: 0.417;
+    }
+     #page_single_fest {
+         margin-bottom: 0px;
+    }
+     .single_fest_about .space {
+         padding-bottom: 0px;
+    }
+     .single_fest_about .heading .title {
+         font-size: 18px;
+         line-height: 1;
+    }
+     .single_fest_about .pr-0 {
+         padding-left: 0px !important;
+    }
+     .single_fest_about .pl-0 {
+         padding-right: 0px !important;
+    }
+     .single_fest_about .mp-0 {
+         padding: 0px;
+    }
+     .single_fest_about .btn.desktop {
+         display: none;
+    }
+     .single_fest_about .btn.mobile {
+         width: 100%;
+         text-align: center;
+         display: block;
+         margin-bottom: 30px;
+         font-size: 16px;
+    }
+     .single_fest_about .reorder {
+         display: -webkit-box;
+         display: -ms-flexbox;
+         display: flex;
+         -webkit-box-orient: vertical;
+         -webkit-box-direction: normal;
+         -ms-flex-direction: column;
+         flex-direction: column;
+    }
+     .single_fest_about .reorder .heading {
+         -webkit-box-ordinal-group: 1;
+         -ms-flex-order: 0;
+         order: 0;
+    }
+     .single_fest_about .reorder .text {
+         -webkit-box-ordinal-group: 3;
+         -ms-flex-order: 2;
+         order: 2;
+    }
+     .single_fest_about .reorder .video {
+         -webkit-box-ordinal-group: 4;
+         -ms-flex-order: 3;
+         order: 3;
+         margin-top: 20px;
+         margin-bottom: -20px;
+    }
+     .single_fest_programme .text {
+         padding-top: 15px;
+         padding-bottom: 15px;
+    }
+}
+ @media (min-width: 767px) {
+     .single_fest_about .btn.mobile {
+         display: none;
+    }
+}
+/* SINGLE FEST ANCHORS */
+ .single_fest_anchors {
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-orient: horizontal;
+     -webkit-box-direction: normal;
+     -ms-flex-direction: row;
+     flex-direction: row;
+     background-color: #435060;
+     padding: 5px;
+}
+ .single_fest_anchors .item {
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-orient: horizontal;
+     -webkit-box-direction: normal;
+     -ms-flex-direction: row;
+     flex-direction: row;
+     -webkit-box-align: center;
+     -ms-flex-align: center;
+     align-items: center;
+     text-decoration: none;
+}
+ .single_fest_anchors .item .black-bg {
+     background-color: #000;
+     height: 40px;
+     width: 40px;
+     display: -webkit-inline-box;
+     display: -ms-inline-flexbox;
+     display: inline-flex;
+     -webkit-box-orient: horizontal;
+     -webkit-box-direction: normal;
+     -ms-flex-direction: row;
+     flex-direction: row;
+     -webkit-box-pack: center;
+     -ms-flex-pack: center;
+     justify-content: center;
+     -ms-flex-line-pack: center;
+     align-content: center;
+}
+ .single_fest_anchors .item .black-bg .icon {
+     -o-object-fit: contain;
+     object-fit: contain;
+}
+ .single_fest_anchors .item .text {
+     font-size: 18px;
+     color: #fff;
+     margin-left: 8px;
+     margin-right: 20px;
+}
+ .single_fest_anchors .item .text:hover {
+     text-decoration: none;
+     color: #f6a325;
+}
+ .hide-desktop {
+     display: none;
+     background-color: #435060;
+     padding: 8px;
+}
+ .hide-desktop .anchor-select {
+     background-color: #435060;
+     color: #fff;
+     border: none;
+     font-size: 14px;
+     color: #fff;
+     font-weight: bold;
+     text-transform: uppercase;
+}
+ @media (max-width: 893px) {
+     .hide-mobile {
+         display: none;
+    }
+     .hide-desktop {
+         display: block;
+    }
+}
+ .hide-desktop {
+     display: none;
+     background-color: #435060;
+     padding: 8px;
+}
+ .hide-desktop .anchor-select {
+     background-color: #435060;
+     color: #fff;
+     border: none;
+     font-size: 14px;
+     color: #fff;
+     font-weight: bold;
+     text-transform: uppercase;
+}
+ .hide-desktop .select2-container--default .select2-selection--single .select2-selection__rendered {
+     font-size: 14px;
+     color: #fff;
+     font-weight: bold;
+     text-transform: uppercase;
+}
+ .hide-desktop .select2-container--default .select2-selection--single .select2-selection__arrow, .select2-search--dropdown {
+     display: block;
+}
+ .hide-desktop .select2-container--default .select2-selection--single .select2-selection__arrow {
+     height: 26px;
+     position: absolute;
+     top: 1px;
+     right: -30px;
+     width: 20px;
+     color: #fff!important;
+}
+ @media (max-width: 893px) {
+     .hide-mobile {
+         display: none;
+    }
+     .hide-desktop {
+         display: block;
+    }
+}
+/* SINGLE GIG MOBILE 
+ #page_single_gig #gig_content .tabs_header {
+     display: flex;
+     flex-direction: row;
+}
+ #page_single_gig #gig_content .tabs_header .tab:nth-child(2) {
+     margin-left: 3px;
+     margin-right: 3px;
+}
+ @media (max-width: 646px) {
+     #page_single_gig #gig_content .tabs_header .tab {
+         padding: 5px;
+         font-size: 12px;
+    }
+     #page_single_gig #gig_content .tabs_header .tab .tabs_header {
+         display: flex!important;
+         flex-direction: row!important;
+    }
+     #page_single_gig #gig_content .eat_sleep_item .btn {
+         height: 100%;
+         width: 100%;
+         text-align: center;
+         padding: 11px 11px;
+    }
+}
+*/
+/* FESTIVAL INDEX PAGE */
+ #page_festivals h1 {
+     font-weight: 900;
+     font-size: 30px;
+     margin-bottom: 15px;
+}
+ #page_festivals .align-head {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-content: center;
+}
+ #page_festivals .top-btn {
+     float: right;
+     min-width: 75px;
+     text-align: center;
+}
+ .page_homepage .container.featured_festivals {
+     padding-bottom: 0;
+}
+
+ .featured_festivals .item {
+     padding: 0px;
+     float: left
+}
+ .featured_festivals .item:first-child {
+    float: none;
+    padding: 40px;
+    margin-bottom: 10px;
+    background: #3F4E5D;
+    margin-bottom: 50px;
+    height: auto;
+    width: 100%;
+    color: #FFF;
+}
+
+.featured_festivals .item:first-child .hoverbox {
+     width: 100%;
+     height: 480px;
+}
+
+.featured_festivals .item:first-child .excerpt { padding-top: 30px; }
+
+ .featured_festivals .item:nth-child(2) {
+     border-top: 4px solid #fff;
+     border-right: 2px solid #fff;
+}
+ .featured_festivals .item:nth-child(3) {
+     border-top: 4px solid #fff;
+     border-left: 2px solid #fff;
+}
+ .featured_festivals .item {
+     width: 50%;
+     height: 275px;
+}
+ .featured_festivals .hoverbox {
+     height: 100%;
+     width: 100%;
+     position: relative;
+     overflow: hidden;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center center;
+     -o-object-fit: cover;
+     object-fit: cover;
+}
+ .featured_festivals .hoverbox:after {
+     content: "";
+     width: 100%;
+     height: 100%;
+     opacity: 1;
+     position: absolute;
+     top: 0;
+     -webkit-transition: all 0.3s ease-in-out 0s;
+     -o-transition: all 0.3s ease-in-out 0s;
+     transition: all 0.3s ease-in-out 0s;
+}
+ .featured_festivals .hoverbox:hover:after {
+     background-position: 100% 100%;
+     background-color: #435060;
+     opacity: 0.5;
+     -webkit-transition: all 0.3s ease-in-out 0s;
+     -o-transition: all 0.3s ease-in-out 0s;
+     transition: all 0.3s ease-in-out 0s;
+}
+ .featured_festivals .hoverbox .hoverbox-content {
+     width: 100%;
+     position: absolute;
+     bottom: 8%;
+     left: 0;
+     z-index: 1;
+     -webkit-transition: all 0.3s ease-in-out 0s;
+     -o-transition: all 0.3s ease-in-out 0s;
+     transition: all 0.3s ease-in-out 0s;
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-orient: vertical;
+     -webkit-box-direction: normal;
+     -ms-flex-direction: column;
+     flex-direction: column;
+     -webkit-box-align: center;
+     -ms-flex-align: center;
+     align-items: center;
+}
+ .featured_festivals .hoverbox:hover .hoverbox-content {
+     bottom: 48%;
+}
+ .featured_festivals .hoverbox .title {
+     background: #3f4e5d;
+     color: #FFF;
+     font-size: 18px;
+     font-weight: 300;
+     padding: 0px 4px;
+     text-align: center;
+     display: inline-block;
+     -webkit-box-ordinal-group: 2;
+     -ms-flex-order: 1;
+     order: 1;
+}
+ .featured_festivals .hoverbox .date {
+     background: #202d39;
+     color: #FFF;
+     font-size: 18px;
+     font-weight: 300;
+     padding: 0px 4px;
+     display: inline-block;
+     text-align: center;
+     -webkit-box-ordinal-group: 1;
+     -ms-flex-order: 0;
+     order: 0;
+}
+ .featured_festivals .hoverbox:hover .title {
+     background: transparent;
+     font-size: 24px;
+     color: white;
+     padding: 0px 4px;
+     display: inline-block;
+     -webkit-box-ordinal-group: 1;
+     -ms-flex-order: 0;
+     order: 0;
+     -webkit-transition: all 0.3s ease-in-out 0s;
+     -o-transition: all 0.3s ease-in-out 0s;
+     transition: all 0.3s ease-in-out 0s;
+}
+ .featured_festivals .hoverbox:hover .date {
+     background: transparent;
+     font-size: 16px;
+     font-weight: bold;
+     color: white;
+     padding: 0px 4px;
+     display: inline-block;
+     -webkit-box-ordinal-group: 2;
+     -ms-flex-order: 1;
+     order: 1;
+     -webkit-transition: all 0.3s ease-in-out 0s;
+     -o-transition: all 0.3s ease-in-out 0s;
+     transition: all 0.3s ease-in-out 0s;
+}
+ .featured_festivals .hoverbox .btn {
+     position: absolute;
+     top: 35%;
+     opacity: 0;
+     z-index: 1;
+     width: 120px;
+     text-align: center;
+     margin-left: auto;
+     margin-right: auto;
+     left: 0;
+     right: 0;
+     -webkit-transition: all 0.3s ease-in-out 0s;
+     -o-transition: all 0.3s ease-in-out 0s;
+     transition: all 0.3s ease-in-out 0s;
+}
+ .featured_festivals .hoverbox:hover .btn {
+     opacity: 1;
+     top: 55%;
+     width: 120px;
+     left: 0;
+     right: 0;
+     margin-left: auto;
+     margin-right: auto;
+}
+ @media (max-width: 768px) {
+     #page_festivals h1 {
+         font-size: 18px;
+    }
+     #page_festivals .align-head {
+         padding: 0px;
+    }
+     .page_homepage .featured_festivals {
+         padding: 30px!important;
+    }
+     .featured_festivals .item:first-child .hoverbox {
+         height: 150px;
+    }
+     .featured_festivals .item {
+         height: 150px;
+    }
+     .featured_festivals .hoverbox:hover .title {
+         font-size: 14px;
+    }
+     .featured_festivals .hoverbox:hover .date {
+         font-size: 12px;
+    }
+}
+ @media (min-width: 768px) {
+     #page_festivals .m-pr-0 {
+         padding-right: 0px;
+    }
+     #page_festivals .m-pl-0 {
+         padding-left: 0px;
+    }
+}
+
+
+
+/* korny */
+.faq .faq_subcontent {
+    white-space: pre-line;    
+}
+
+
+/* Single Event */
+.social-container{
+    display: flex;
+}
+
+.social-container h4{
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+
+.social-container .newsletter-signup{
+    margin-left:60px;
+}
+
+@media (max-width:500px){
+    .social-container{
+        flex-direction: column;
+    }
+    
+    .social-container .newsletter-signup{
+        margin-top:20px;
+        margin-left:0px;
+    }
+}
